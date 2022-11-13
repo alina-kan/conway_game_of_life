@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Game of Life</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    <div id="wrapper" style="text-align:center; background-color: #6F1D1B; height: 7.5rem;">
+        <div id="content">
+            <h1 style="color: #fefefe;">The Conway Game of Life</h1>
+            <!--
+            <script type="application/javascript" src="scripts/conway_game.js"></script>
+            <canvas id="canvas" width="750" height="400" style="border:2rem solid rgb(47, 23, 42);">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas> -->
+            <p style="color: #fefefe;">
+                This version will play the Game of Life and iterate until there are no “live cells” 
+                remaining.
+            </p>
+            <center><button class="restart-btn" type="button" style="text-align: center;">Restart</button><br/></center>
+          </div>
+        <div id="content" style="background-color: #fefefe;">
+          <center><script src="scripts/sketch.js"></script></center>
+        </div>
+      </div>
+</body>
+</html>
