@@ -1,0 +1,6 @@
+---
+title: "Conway Game of Life"
+author: Alina Kanayinkal
+format: gfm
+editor: visual
+---
